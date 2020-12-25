@@ -1,7 +1,7 @@
 const discord = require('discord.js');
 const fs = require('fs');
 const client = new discord.Client();
-const cofing = require('./config.json')
+const config = require('./config.json')
 
 client.commands = new discord.Collection();
 client.aliases = new discord.Collection();
