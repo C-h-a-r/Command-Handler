@@ -28,7 +28,7 @@ Categories.forEach(async function(Category) { //
 
 client.on("message", async message => {
 
-  let Prefix = confir.prefix
+  let Prefix = config.prefix
 
   if (message.author.bot || !message.guild || message.webhookID) return;
 
